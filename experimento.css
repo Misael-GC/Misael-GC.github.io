@@ -1,0 +1,37 @@
+
+/*------------------------------------footer----------------------------------------------------------------*/
+/*footer{
+    background-color:orangered;
+    height: 10vh;
+}
+   4$4
+   */
+   /*clase 36*/
+   main{
+     width: 100vw; /* esto lo que va hacer es ocupar 100% del viewport*/
+     height: 100vh;/* es para contenedores padre como main, section, etc*/
+   }
+    
+   /* clase 41 ----> main*/
+.container{ 
+  border: 0.3rem solid black;
+  display: flex; /* es necesario poner este para que se aplique el siguiente codigo */
+  align-items: center; /*va a mandar al centro al los hijos  */
+  /* align-items: flex-end; lleva el contenido hasta abajo del contenedor padre */
+  /* align-items: flex-end; estira el contenido hasta llenar todo del contenedor padre */
+  height: 50vh;
+}
+box{
+  width: 10rem;
+  height: 10rem;  /*no importa si ya les pusiste dimensiones aplican los flex-grow */
+}
+
+.box1{
+  background-color: black;
+  flex-grow: 1; /*hace crecer al contenedor para no dejar espacios en blanco, es decir agarran el espacio que sobra*/
+}
+
+.box2{
+  background-color: aqua;
+  flex-grow: 1;
+}

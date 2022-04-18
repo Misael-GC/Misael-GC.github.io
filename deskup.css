@@ -1,0 +1,35 @@
+.container{
+    width:800px; /*el limite de mi pantalla son 1100px, mejor dejalo en 800 para evitar problemas con otros usuarios*/
+    margin-left: auto; /*estos margenes van a centrar el contenido*/
+    margin-right: auto;
+}
+.c1{
+    width: 60%;
+} 
+    .c2{
+        width: 40%;
+    } 
+    .c3, .c4{
+        width: 33%;
+    } 
+    .c5{
+        width: 34%;
+    }
+
+/*-------------------------------------cuadro---imagen-iglesia----------------------------------------------*/
+.iglesia{
+    width: 20rem;
+    height: 20rem;
+}
+/*-------------------------------------cuadro---imagen--volcan----------------------------------------------*/
+
+.nubes{
+    width: 20rem;
+    height: 20rem;
+}
+/*-------------------------------------cuadro---imagen--comida----------------------------------------------*/
+
+.comida{
+    width: 20rem;
+    height: 20rem;
+}

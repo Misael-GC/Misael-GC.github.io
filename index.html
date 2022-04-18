@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Esta página contiene contenido de la cultura mexicana">
+    <meta name="robots" content="index, follow">
+    <title>Arte&Cultura</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width:600px)"/>
+    <link rel="stylesheet" href="./deskup.css" media="screen and (min-width: 800px)"/>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="https://pbs.twimg.com/profile_images/1498519465532735489/P6D3QmPr_400x400.jpg" alt="logotipo" class="logo">
+        </figure>
+        <nav>
+            <ul class="nave">
+                <li class="nave__item"><a href="">Home</a></li>
+                <li class="nave__item"><a href="">Foro</a></li>
+                <li class="nave__item"><a href="">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="c1">
+            <section class="video" >
+                <video src="https://media.istockphoto.com/videos/cholula-puebla-mexico-cathedral-popocatapetl-aerial-footage-video-id970470914" controls preload="auto" class="vid" title="es un video del cerrito en Cholula Puebla"></video>
+            </section>
+            <p class="cerrito">Bienvenido a mi casa</p>
+        </div>
+        <div class="c2">
+            <h4 class="t9">Turismo </h4>
+            <form action="" class="formulario">
+                <label for="correo">
+                    <input type="mail" name="correo" id="correo" autocomplete="correo" placeholder=" Tu correo electronico"><br>
+                    <input type="submit" value="Quiero suscribirme" class="boton">
+                </label>
+            </form>
+        </div>
+        <div class="c3">
+            <picture class="iglesia1">
+                <source media="(min-width:1000px)" srcset="./galeria/iglesia1200.jpg">
+                <source media="(min-width:1300px)" srcset="./galeria/iglesia1800.jpg">
+                <img src="./galeria/iglesia.jpg" alt="Es una iglesia diseñada artisticamente" class="iglesia" title="Es una iglesia diseñada artisticamente">
+            </picture>
+            <div class="parrafo1">
+                <h4 class="t1">365 iglesias</h4>
+                <p>Arte e historia</p>
+            </div>
+        </div>
+        <div class="c4">
+            <picture class="nubes1">
+                <source media="(min-width:1000px)" srcset="./galeria/volcan600.jpg">
+                <source media="(min-width:1300px)" srcset="./galeria/volcan1200.jpg">
+                <img src="./galeria/volcan600.jpg" alt="es un volcan llamado Popocatepetl" class="nubes" title="es un volcan llamado Popocatepetl">
+            </picture>
+            <div class="parrafo2">
+                <h4 class="t1">Relieves</h4>
+                <p>Naturaleza y belleza</p>
+            </div>
+        </div>
+        <div class="c5">
+            <picture class="comida1">
+                <source media="(min-width:1000px)" srcset="./galeria/comida600.jpg">
+                <source media="(min-width:1300px)" srcset="./galeria/comida800.jpg">
+                <img src="./galeria/comida300.jpg" alt="es comida mexicana" class="comida" title="son tacos al pastor con jugo de naranja">
+            </picture>
+            <div class="parrafo3">
+                <h4 >Comida</h4>
+                <p>Deleite y Sabores</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-social"> Todos los derechos reservados 2022
+        </div>
+        <div class="footer-info"> 
+            <a href="https://www.facebook.com/profile.php?id=100014608445201">
+                <img src="./galeria/fb_35.png" alt="icono red social facebook" width="20">
+            </a>
+            <a href="https://twitter.com/MisaelG51069440?t=ETvTFOYvW3TjB82zcfVo5g&s=08">
+                <img src="./galeria/Twitter_38.png" alt="icono red social facebook" width="20">
+            </a>
+            <a href="https://www.linkedin.com/in/misael-g%C3%B3mez-cuautle-5976491b9">
+                <img src="./galeria/linkedin_70.png" alt="icono red social facebook" width="20">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

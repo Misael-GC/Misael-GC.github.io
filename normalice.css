@@ -1,0 +1,232 @@
+
+
+ html {
+    altura de línea: 1,15; 
+    -webkit-texto-tamaño-ajuste: 100%; 
+  }
+
+  
+  cuerpo {
+    margen: 0;
+  }
+  
+
+  
+  principal {
+    bloqueo de pantalla;
+  }
+  
+  
+  h1 {
+    tamaño de fuente: 2em;
+    margen: 0,67em 0;
+  }
+  
+
+  
+  hora {
+    tamaño de caja: caja de contenido; 
+    altura: 0; 
+    desbordamiento: visible; 
+  }
+  
+ 
+  
+  previo {
+    familia de fuentes: monoespaciado, monoespaciado; 
+    tamaño de fuente: 1em; 
+  }
+  
+  
+  
+  a {
+    color de fondo: transparente;
+  }
+  
+
+  
+  abbr[título] {
+    borde inferior: ninguno; 
+    decoración de texto: subrayado; 
+    texto-decoración: subrayado punteado; 
+  }
+  
+ 
+  
+  B,
+  fuerte {
+    font-weight: negrita;
+  }
+  
+  
+  código,
+  kbd,
+  muestra {
+    familia de fuentes: monoespaciado, monoespaciado; 
+    tamaño de fuente: 1em; 
+  }
+  
+
+  pequeña {
+    tamaño de fuente: 80%;
+  }
+  
+  
+  sub,
+  sorber {
+    tamaño de fuente: 75%;
+    altura de línea: 0;
+    posición: relativa;
+    alineación vertical: línea de base;
+  }
+  
+  secundario {
+    inferior: -0.25em;
+  }
+  
+  sorber {
+    superior: -0.5em;
+  }
+  
+
+  imagen {
+    estilo de borde: ninguno;
+  }
+  
+  
+  botón,
+  aporte,
+  grupo de opciones,
+  Seleccione,
+  área de texto {
+    familia de fuentes: heredar; 
+    tamaño de fuente: 100%; 
+    altura de línea: 1,15; 
+    margen: 0; 
+  }
+  
+  
+  botón,
+  entrada { 
+    desbordamiento: visible;
+  }
+  
+  
+  botón,
+  seleccionar { 
+    transformación de texto: ninguno;
+  }
+  
+  
+  
+  botón,
+  [escribir="botón"],
+  [tipo="restablecer"],
+  [tipo="enviar"] {
+    -apariencia de webkit: botón;
+  }
+  
+  
+  
+  botón::-moz-enfoque-interior,
+  [type="button"]::-moz-enfoque-interior,
+  [type="reset"]::-moz-enfoque-interior,
+  [tipo="enviar"]::-moz-focus-inner {
+    estilo de borde: ninguno;
+    relleno: 0;
+  }
+  
+  
+  
+  botón:-moz-anillo de enfoque,
+  [tipo="botón"]:-moz-focusring,
+  [tipo="restablecer"]:-moz-focusring,
+  [tipo="enviar"]:-moz-focusring {
+    contorno: 1px ButtonText punteado;
+  }
+  
+  
+  
+  conjunto de campos {
+    relleno: 0,35 em 0,75 em 0,625 em;
+  }
+  
+  
+  
+  leyenda {
+    tamaño de caja: cuadro de borde; 
+    color: heredar; 
+    pantalla: mesa; 
+    ancho máximo: 100%; 
+    relleno: 0; 
+    espacio en blanco: normal; 
+  }
+  
+ 
+  
+  Progreso {
+    alineación vertical: línea de base;
+  }
+  
+  
+  
+  área de texto {
+    desbordamiento: automático;
+  }
+  
+  
+  
+  [tipo="casilla de verificación"],
+  [tipo="radio"] {
+    tamaño de caja: cuadro de borde; 
+    relleno: 0; 
+  }
+  
+  
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    altura: automático;
+  }
+  
+  
+  
+  [tipo="buscar"] {
+    -apariencia del webkit: campo de texto; /* 1 */
+    contorno-desplazamiento: -2px; /* 2 */
+  }
+  
+  
+  
+  [type="buscar"]::-webkit-buscar-decoración {
+    -apariencia de webkit: ninguno;
+  }
+  
+  
+  
+  ::-webkit-file-upload-button {
+    -apariencia de webkit: botón; 
+    fuente: heredar; 
+  }
+  
+
+  
+  detalles {
+    bloqueo de pantalla;
+  }
+  
+ 
+  
+  resumen {
+    mostrar: elemento de lista;
+  }
+  
+  
+  plantilla {
+    pantalla: ninguno;
+  }
+  
+  
+  [oculto] {
+    pantalla: ninguno;
+  }

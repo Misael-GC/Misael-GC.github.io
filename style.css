@@ -1,0 +1,223 @@
+:root{ /*variables para evitar repetir codigo y fuentes disparejos*/
+    --prymary-color:#003475; /*color principal*/
+    --secundary-color:#0062d2;
+    --encabezados-size: 4rem;
+    --font:1.8rem;
+}
+
+*{ /*eliminan el scroll*/
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+html { /* nos ayuda aplicar el rem*/
+    font-size: 62.5%;
+  }
+/*------------------------------------------------------HEADER-------------------------------------------------*/
+nav{
+    /*display: inline-block;*/
+    position: absolute; /* este es el que hace que se vaya a la otra esquina, ver clase 37*/
+    right: 1.5rem; /* esta es la medida para que se vaya a la otra esquina */
+    top: 1.2rem;
+   /* display: flex;*/
+} 
+
+.nave{
+    margin-top:1rem;
+    list-style:none;
+    padding-left: 0;
+    background-color: blue;
+   /* display: inline-block;*/
+    text-align: center;
+    display: flex;/*es como el inline-block pero responsive*/
+    flex-wrap: wrap; /*cuando haya menos espacio se pondra en columna*/
+   /* justify-content: center; va centrar el contenido ya no usar margin:0 auto; [ [contenido] ]*/
+   justify-content: space-evenly; /* espacios iguales*/
+}
+
+.nave__item a{
+  color:aliceblue;
+  text-decoration: none;
+  font-size: var(--font);
+  padding: 0.5rem;/* 
+  border-radius: 0.2rem;
+  background-color: grey;*/
+}
+.nave__item a:hover{ /* el hover cambia de color al pasar por encima*/
+    color:tomato;
+}
+
+.nave__item a:active{ /* el active cambia de color al darle click*/
+    color:grey;
+}
+
+header{ 
+    height: 14vh;
+    width: 100vw; /*va ocupar el 100% del espacio del tamaño de la pantalla*/
+    background-color: var(--prymary-color);
+    /*display: inline-block;
+    display: flex;*/
+    padding: 0.3rem; /*espacio corto del logo*/
+}
+.logo{
+    background-color: #003475;
+    width: 70px;
+    border-radius: 100px;
+}
+/*-----------------------------------------------------HEADER--END--------------------------------------------*/
+/*-------------------------------------------------BODY----MAIN--MosttlyFluid---------------------------------*/
+body {
+    background-image: url("https://images.pexels.com/photos/2388639/pexels-photo-2388639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");/*poner una imagen de fondo*/
+    background-color: #cccccc;
+    font-size: var(--font);
+  }
+.container{
+    display: flex; /*ayuda a manipular el contenido*/
+    flex-wrap: wrap; /*el contenido se reposicione segun su tamaño del viewport*/
+    width: 100vw; /*ocupe todo su espacio*/
+    height: 100vh; /*ocupe todo su espacio*/
+    background-color: white;
+}
+
+.c1, .c2, .c3, .c4, .c5{
+    width: 100%; /*ocupen todo el ancho horizontal*/
+    min-width: 150px; /*limitamos el minimo del ancho*/ 
+    min-height: 50px;/* crezca lo de su contenido con el min*/
+    display: flex; /*ayuda a manipular el contenido*/
+    flex-wrap: wrap; /*el contenido se reposicione segun su tamaño del viewport*/
+    align-content: center; /*Las líneas son unidas entre sí, y centradas dentro del contenedor. une imagen y texto*/
+    justify-content: center;/*ver libreta- clase 41*/
+}
+.c1{
+    background-color: black;
+}
+.c2{
+    background-color: #0062d2;
+}
+.c3{
+    background-color: #b4d2f7;
+}
+.c4{
+    background-color: #d5dfef;
+}
+.c5{
+    background-color: #dfe1e5;
+}
+/*-------------------------------------galeria--------------------------------------------------------------*/
+/*-------------------------------------cuadro---video-------------------------------------------------------*/
+.video{
+    width:80%;
+    height: 50%;
+    /*border: 00.3rem solid white; ----- solo sirve para ver el contenedor y modificar*/
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0 auto;
+}
+.vid{
+    width:80%;
+    min-width: 270px;
+    max-width:500px;
+    min-height: 80px;
+    /*margin: 0 auto;*/
+    /*border: 00.3rem solid white; -------- solo sirve para ver el contenedor y modificar*/
+    background-color:black;
+}
+.cerrito{
+    color: white;
+   /* border: 00.3rem solid  blue;*/
+    margin: 0 auto;
+}
+/*-------------------------------------cuadro---correo------------------------------------------------------*/
+.t9{
+    color: white;
+    position: relative;
+    bottom: 2rem;
+    left: 10rem;
+}
+.formulario{
+    position: relative;
+    right: 2rem;
+}
+.boton{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    left: 3rem;
+}
+/*-------------------------------------cuadro---imagen-iglesia----------------------------------------------*/
+.iglesia1{
+    display: flex;
+    justify-items: center;
+} 
+.iglesia{
+    width: 7rem;
+    height: 7rem;
+}
+.parrafo1{
+   padding: 0 7rem;
+}
+.parrafo1 h4{
+    color: blue;
+}
+.parrafo1 p{
+    font-size: 1.6rem;
+}
+/*-------------------------------------cuadro---imagen--volcan----------------------------------------------*/
+.nubes1{
+    display: flex;
+    justify-items: center;
+}
+.nubes{
+    width: 7rem;
+    height: 7rem;
+}
+.parrafo2{
+    padding: 0 7rem;
+ }
+ .parrafo2 h4{
+     color: blue;
+ }
+ .parrafo2 p{
+     font-size: 1.6rem;
+ }
+ /*-------------------------------------cuadro---imagen--volcan----------------------------------------------*/
+.comida1{
+    display: flex;
+    justify-items: center;
+}
+.comida{
+    width: 7rem;
+    height: 7rem;
+}
+.parrafo3{
+    padding: 0 7rem;
+ }
+ .parrafo3 h4{
+     color: blue;
+ }
+ .parrafo3 p{
+     font-size: 1.6rem;
+ }
+/*------------------------------------footer----------------------------------------------------------------*/
+
+.footer-social, .footer-info{
+    display: inline-block;
+    margin:2rem;
+    color: aliceblue;
+    font-size: 1.2rem;
+  }
+  
+  .footer-info {
+    position: absolute;
+    right: 0.0rem;
+    color: aliceblue;
+  }
+  footer{
+    background-color:var(--secundary-color);
+    width: 100vw;
+    height: 15vh;
+    position: relative;
+}
