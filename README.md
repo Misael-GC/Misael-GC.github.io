@@ -7,3 +7,4 @@ El curso que me ayudo a crear esta página, se llama 🔥 [Definitivo de HTML y 
  - Dominio de la anatomía de un elemento HTML
  - Aplicación de estilos usando CSS3
  - Sitio web público con GitHub Pages
+Nota: en está ocasión subí archivos binarios, es mala práctica, pero fue solo una excepción para probar unos detalles de .gitignore.
